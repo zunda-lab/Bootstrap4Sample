@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+
+    <title>PMSS 新規会員登録</title>
+</head>
+
+<body>
+    <h1>フォームの実験</h1>
+    <form action="">
+        <div class="form-group">
+            <label for="txt">テキスト</label>
+            <input type="text" class="form-control form-control-sm" id="txt" placeholder="テキストフィールドの説明です">
+        </div>
+
+        <div class="form-group">
+            <label for="mail">メールアドレス</label>
+            <input type="email" class="form-control form-control-sm" id="mail" placeholder="メールアドレスフィールドの説明です">
+        </div>
+
+        <div class="form-group">
+            <label for="pw">パスワード</label>
+            <input type="password" class="form-control form-control-sm" id="pw" placeholder="パスワードフィールドの説明です">
+        </div>
+
+        <div class="form-group">
+            <label for="memo">備考</label>
+            <textarea class="form-control form-control-sm" id="memo" placeholder="備考の説明です"></textarea>
+        </div>
+
+        <div class="form-group">
+            <label for="pulldown">プルダウンメニュー</label>
+            <select name="" id="pulldown" class="form-control form-control-sm">
+                <option value="">ピン</option>
+                <option value="">ポン</option>
+                <option value="">パン</option>
+            </select>
+        </div>
+
+        <div class="form-group">
+            <label for="listbox form-control-sm">リストボックス</label>
+            <select name="" id="listbox" class="form-control" size="3">
+                <option value="">ピン</option>
+                <option value="">ポン</option>
+                <option value="">パン</option>
+            </select>
+        </div>
+
+        
+        <label>好きな食べ物</label>
+        <div class="form-group">
+            <div class="form-check form-check-inline">
+                <lable class="form-check-labe">
+                    <input type="checkbox" id="sushi" class="form-check-input"> 寿司
+                </lable>
+            </div>
+            <div class="form-check form-check-inline">
+                <lable class="form-check-labe">
+                    <input type="checkbox" id="ramen" class="form-check-input"> ラーメン
+                </lable>
+            </div>
+            <div class="form-check form-check-inline">
+                <lable class="form-check-labe">
+                    <input type="checkbox" id="curry" class="form-check-input"> カレー
+                </lable>
+            </div>
+        </div>
+
+        <label>連絡手段</label>
+        <div class="form-group">
+            <div class="form-check form-check-inline">
+                <lable class="form-check-labe">
+                    <input type="radio" id="sushi" class="form-check-input" name="contact"> 電子メール
+                </lable>
+            </div>
+            <div class="form-check form-check-inline">
+                <lable class="form-check-labe">
+                    <input type="radio" id="ramen" class="form-check-input" name="contact"> 電話
+                </lable>
+            </div>
+            <div class="form-check form-check-inline">
+                <lable class="form-check-labe">
+                    <input type="radio" id="curry" class="form-check-input" name="contact"> 郵便
+                </lable>
+            </div>
+        </div>
+
+        <input type="submit" class="btn">
+    </form>
+</body>
+
+</html>
