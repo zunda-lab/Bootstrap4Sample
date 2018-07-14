@@ -63,12 +63,76 @@
                     <p>Javaでの開発経験が豊富、開発者の立場に立った効果的な指導ができる。またMySQLやPostgreSQLに強みもあり、システム全体のパフォーマンス改善も対応できる。</p>
                 </div>
                 <div class="col-4">
+                    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                        <ol class="carousel-indicators">
+                            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                        </ol>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img class="d-block w-100" src="images/MOK_kyouheisu-tukakaeru_TP_V.jpg" alt="First slide">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <p>さあいくぞ</p>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img class="d-block w-100" src="images/CKL_nekorobu_TP_V.jpg" alt="Second slide">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <p>くつろぐ大川</p>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img class="d-block w-100" src="images/cancanIMGL1378_TP_V.jpg" alt="Third slide">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <p>バグと戦う大川</p>
+                                </div>
+                            </div>
+                        </div>
+                        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                        </a>
+                    </div>
                 </div>
-
             </div>
         </div>
     </div>
-
+    <div class="container">
+        <ul class="nav nav-tabs" id="myTab" role="tablist">
+            <li class="nav-item">
+                <a class="nav-link active" id="home-tab" data-toggle="tab" href="#nav-basic" role="tab" aria-controls="home" aria-selected="true">基本情報</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" id="profile-tab" data-toggle="tab" href="#nav-java" role="tab" aria-controls="profile" aria-selected="false">Java部会</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" id="contact-tab" data-toggle="tab" href="#nav-python" role="tab" aria-controls="contact" aria-selected="false">Python部会</a>
+            </li>
+        </ul>
+        <div class="tab-content" id="myTabContent">
+            <div class="tab-pane fade show active p-3" id="nav-basic" role="tabpanel" aria-labelledby="home-tab">
+                <dl class="row">
+                    <dt class="col-sm-2">氏名</dt>
+                    <dd class="col-sm-10">大川竜也</dd>
+                    <dt class="col-sm-2">読み仮名</dt>
+                    <dd class="col-sm-10">おおかわりゅうや</dd>
+                    <dt class="col-sm-2">英名</dt>
+                    <dd class="col-sm-10">Ryuya OHKAWA</dd>
+                    <dt class="col-sm-2">メールアドレス</dt>
+                    <dd class="col-sm-10">ryuya.ohkawa@foo.co.jp</dd>
+                    <dt class="col-sm-2">性別</dt>
+                    <dd class="col-sm-10">男</dd>
+                </dl>
+            </div>
+            <div class="tab-pane fade" id="nav-java" role="tabpanel" aria-labelledby="profile-tab">...</div>
+            <div class="tab-pane fade" id="nav-python" role="tabpanel" aria-labelledby="contact-tab">...</div>
+        </div>
+    </div>
     <!-- Modal -->
     <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered" role="document">
